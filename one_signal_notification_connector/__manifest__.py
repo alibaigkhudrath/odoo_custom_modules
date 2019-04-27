@@ -1,12 +1,15 @@
 {
     'name': 'One Signal Notification Connector',
-    'summary': 'The One Signal Notification Connector',
     'version': '10.0.1.0',
     'category': 'Push Notification',
-    'summary': """The One Signal Notification""",
+    'summary': """OneSignal connector helpful in sending push notification service for website(Desktop/Browser) & 
+                mobile(Android & iOS) applications. These messages get delivered in real-time and appear in the 
+                notification slider.""",
     'author': "Khudrath Ali Baig",
     'maintainer': "Khudrath Ali Baig<alibaigkhudrath@gmail.com>",
-
+    'images': [
+        'static/description/screen_shots.gif',
+    ],
     'license': 'AGPL-3',
     'depends': ['base'],
     'data': [
